@@ -1,13 +1,19 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { View } from 'react-native';
-import Lottie from 'lottie-react-native';
+import LottieView  from 'lottie-react-native';
 
 const WeatherIcon = ({ icon }) => {
+  const anim = useRef(null);
+
+  useEffect(() => {
+    anim.current?.play();
+  }, []);
+
   return (
     <View>
-      <Lottie 
+      <LottieView
+        ref={anim}
         source={icon}
-        autoPlay
         loop
         style={{ width: 'auto', height: 'auto' }}
       />

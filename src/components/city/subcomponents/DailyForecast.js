@@ -37,7 +37,7 @@ const DailyForecast = ({ currentTime, dailyForecast, dailyUnits }) => {
         <View className={style.forecastIconWrapper}>
           <WeatherIcon icon={icon.day} />
         </View>
-        <View className='flex-row space-x-0.5'>
+        <View className='flex-row space-x-0.5 w-full'>
           <View className='items-end'>
             <Text className={style.forecastDailyItemLabel}>Hi:</Text>
           </View>
@@ -47,7 +47,7 @@ const DailyForecast = ({ currentTime, dailyForecast, dailyUnits }) => {
             </Text>
           </View>
         </View>
-        <View className='flex-row space-x-0.5'>
+        <View className='flex-row space-x-0.5 w-full'>
           <View className='items-end'>
             <Text className={style.forecastDailyItemLabel}>Lo:</Text>
           </View>

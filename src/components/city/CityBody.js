@@ -43,7 +43,7 @@ const CityBody = ({
             }}
             hitSlop={20}
           >
-            <View className='flex-row mb-2'>
+            <View className='flex-row mb-6'>
               <AntDesign name="arrowleft" size={20} color={styles.cityTextColor[theme]} />
               <Text style={{ color: styles.cityTextColor[theme] }}>Go back</Text>
             </View>
