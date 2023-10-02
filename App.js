@@ -4,7 +4,6 @@ import { SafeAreaProvider } from "react-native-safe-area-context";
 import { AutocompleteDropdownContextProvider } from "react-native-autocomplete-dropdown";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { NavigationContainer } from "@react-navigation/native";
-import { StatusBar } from 'expo-status-bar';
 import MainStackNavigator from './src/navigators/MainStackNavigator';
 
 function App() {
