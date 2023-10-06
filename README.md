@@ -1,3 +1,14 @@
+### Asset Credits
+
+Landing Page Background: DICK DEV - https://lottiefiles.com/bbxnt1gkpptgme9q
+
+Landing Page Icon: Agung Hermansyah - https://lottiefiles.com/sundagrapis
+
+Weather Icons SVG: jochang - https://lottiefiles.com/vdr0uy2wwsoljqtc
+
+Search Loading SVG: S M Rony - https://lottiefiles.com/smrony
+
+
 # Sample Snack app
 
 Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
